@@ -17,7 +17,7 @@ import datetime
 
 class Plotwindow:
     """
-    Calss for plotting a graph
+    Class for plotting a graph
     """
 
     def __init__(self, masterFrame, size):
@@ -46,7 +46,7 @@ class Plotwindow:
         internal Methode for creating the plot
         :param valueList: list which contains the data set for graph
         :param titel: titel of the graph
-        :param labellist: list with the labels for the ´lableing information
+        :param labellist: list with the labels for the Â´lableing information
         :param xlabel: label on grid for x axis
         :param ylabel: label on grid for y axis
         :param multi: default False. if True the canvas is not redrawn
@@ -122,7 +122,7 @@ class Plotwindow:
         Methode for creating the plot
         :param valueList: list which contains the data set for graph or dict for multi plotting
         :param titel: titel of the graph
-        :param labellist: list with the labels for the ´lableing information Todo
+        :param labellist: list with the labels for the Â´lableing information Todo
         :param xlabel: label on grid for x axis
         :param ylabel: label on grid for y axis
         :param multi: default False. if True the canvas is redrawn after plotting all plots
